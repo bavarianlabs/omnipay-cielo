@@ -1,0 +1,27 @@
+{
+  "name": "bavarian/omnipay-cielo",
+  "description": "Integration of cielo payment gateway using omnipay library",
+  "keywords": ["omnipay", "cielo", "payment", "pagamento"],
+
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Jorge Vahldick",
+      "email": "jorge.dev@outlook.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": { "Omnipay\\Cielo\\" : "src/" }
+  },
+
+  "require": {
+    "php": ">=5.3.9",
+    "omnipay/common": "v2.3.4"
+  },
+
+  "require-dev": {
+    "omnipay/tests": "@stable"
+  }
+}
